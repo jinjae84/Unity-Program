@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity 2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Class 3th (Script)/Scripts/Sphere.cs"
 "Assets/Class 4th (Input System)/Scripts/Keyboard.cs"
+"Assets/Class 6th (Prefab System)/Scripts/Function.cs"
 -langversion:9.0
 
 /deterministic
