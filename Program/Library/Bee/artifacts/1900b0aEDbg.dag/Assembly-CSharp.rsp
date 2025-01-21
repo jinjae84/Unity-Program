@@ -355,6 +355,7 @@
 "Assets/Class 3th (Script)/Scripts/Sphere.cs"
 "Assets/Class 4th (Input System)/Scripts/Keyboard.cs"
 "Assets/Class 6th (Prefab System)/Scripts/Function.cs"
+"Assets/Class 7th (User Interface)/Scripts/ButtonManager.cs"
 -langversion:9.0
 
 /deterministic
