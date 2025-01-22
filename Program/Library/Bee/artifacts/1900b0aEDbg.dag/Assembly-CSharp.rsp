@@ -356,6 +356,8 @@
 "Assets/Class 4th (Input System)/Scripts/Keyboard.cs"
 "Assets/Class 6th (Prefab System)/Scripts/Function.cs"
 "Assets/Class 7th (User Interface)/Scripts/ButtonManager.cs"
+"Assets/Class 7th (User Interface)/Scripts/Select.cs"
+"Assets/Class 8th (Instantiate & Destroy)/Scripts/CreateManager.cs"
 -langversion:9.0
 
 /deterministic
