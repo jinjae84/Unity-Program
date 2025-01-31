@@ -359,7 +359,11 @@
 "Assets/Class 7th (User Interface)/Scripts/Select.cs"
 "Assets/Class 8th (Instantiate & Destroy)/Scripts/CreateManager.cs"
 "Assets/Class 8th (Instantiate & Destroy)/Scripts/Wraith.cs"
+"Assets/Class 9th (Collision)/Scripts/BasketBall.cs"
 "Assets/Class 9th (Collision)/Scripts/BilliardBall.cs"
+"Assets/Class 9th (Collision)/Scripts/InterfaceManager.cs"
+"Assets/Class 9th (Collision)/Scripts/SoccerBall.cs"
+"Assets/Class 9th (Collision)/Scripts/VolleyBall.cs"
 -langversion:9.0
 
 /deterministic
