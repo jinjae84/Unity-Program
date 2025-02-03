@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Goal Line
   - Dump
+  - Panel
+  - Object
   layers:
   - Default
   - TransparentFX
