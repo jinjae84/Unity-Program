@@ -6,7 +6,9 @@ using UnityEngine.UIElements;
 public class Picking : MonoBehaviour
 {
     private Ray ray;
-    private RaycastHit rayCastHit;    
+    private RaycastHit rayCastHit;
+
+    [SerializeField] LayerMask layerMask;
 
     void Update()
     {
@@ -14,7 +16,7 @@ public class Picking : MonoBehaviour
         {
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     
-            if(Physics.Raycast(ray, out rayCastHit, Mathf.Infinity))
+            if(Physics.Raycast(ray, out rayCastHit, Mathf.Infinity, layerMask))
             {
                 rayCastHit.transform.GetComponent<View>().Show();                                
             }            
