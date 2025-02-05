@@ -3,11 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
-{
-    [SerializeField] AudioSource audioSource;   
+{    
+    [SerializeField] AudioSource audioSource;
+    
+    private static AudioManager instance;
 
-    public void Listen(AudioClip audioClip)
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
+
+    public static void Listen(AudioClip audioClip)
     {        
-        audioSource.PlayOneShot(audioClip);
+        instance.audioSource.PlayOneShot(audioClip);
     }
 }
