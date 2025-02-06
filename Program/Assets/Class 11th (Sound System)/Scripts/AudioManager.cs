@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
-{    
-    [SerializeField] AudioSource audioSource;
-    
+{
     private static AudioManager instance;
+
+    public static AudioManager Instance {  get { return instance; } }
+
+    [SerializeField] AudioSource audioSource;
 
     private void Awake()
     {
@@ -14,10 +16,13 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
         }
-    }
-
-    public static void Listen(AudioClip audioClip)
+        else
+        {
+            Destroy(gameObject);
+        }
+    }    
+    public void Listen(AudioClip audioClip)
     {        
-        instance.audioSource.PlayOneShot(audioClip);
+        audioSource.PlayOneShot(audioClip);
     }
 }

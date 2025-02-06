@@ -21,7 +21,7 @@ public class Sound : MonoBehaviour
 
             yield return new WaitForSeconds(seed);
 
-            Debug.Log(seed);
+            AudioManager.Instance.Listen(audioClip);
         }        
     }
 }
